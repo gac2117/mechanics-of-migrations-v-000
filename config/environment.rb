@@ -9,7 +9,7 @@ require 'bundler/setup'
 Bundler.require
 
 ActiveRecord::Base.establish_connection(
-  :adapter => "SQLite3",
+  :adapter => "sqlite3",
   :database => "db/artists.sqlite"
 )
 
